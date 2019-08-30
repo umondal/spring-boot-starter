@@ -26,7 +26,6 @@ public class CampaignController {
 		this.service = service;
 	}
 
-	// This is a test comment.
 	@GetMapping(value="/campaignmessage/{campaignId}")
 	public ResponseEntity<Campaign> getCampaign(@PathVariable("campaignId") int campaignId)
 	{
